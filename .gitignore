@@ -18,3 +18,5 @@ protocol/xdg-shell-unstable-v5-server-protocol.h
 /cursor/cursor_data.h
 /example/wm
 
+tags
+
