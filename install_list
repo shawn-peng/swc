@@ -1,0 +1,10 @@
+nstall -m 4755 launch/swc-launch /usr/local/bin
+install -m 644 libswc/libswc.a /usr/local/lib
+install -m 755 libswc/libswc.so.0.0 /usr/local/lib
+ln -sf libswc.so.0.0 /usr/local/lib/libswc.so.0
+ln -sf libswc.so.0.0 /usr/local/lib/libswc.so
+install -m 644 libswc/swc.h /usr/local/include
+mkdir -p /usr/local/share/swc
+install -m 644 protocol/swc.xml /usr/local/share/swc
+install -m 644 swc.pc /usr/local/lib/pkgconfig
+
